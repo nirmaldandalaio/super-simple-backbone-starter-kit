@@ -61,6 +61,7 @@ require(['libs/text!home.html'], function (homeTpl) {
 				'specs': {size: size, color: color, quantity: quantity},
 				'address' : {address1: address1, address2: address2, city: city, state: state, zipcode: zipcode}
 			});
+			console.log(Data.attributes);
 		}
 	});
 	
